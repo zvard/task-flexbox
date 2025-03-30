@@ -6,11 +6,12 @@ body,
 }
 
 .flex-container {
-    width: 700px;
-    height: 300px;
     display: flex;
     justify-content: space-between;
-    background-color: #f0f0f0;
+    align-items: flex-start;
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
 }
 
 .flex-container div {
