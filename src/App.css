@@ -1,14 +1,14 @@
-html,
-body,
-#root {
-    height: 100%;
-    margin: 0;
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
 }
 
 .flex-container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
     width: 700px;
     height: 300px;
     margin: 0 auto;
